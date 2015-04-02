@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/DBPool" auth="Container" type="javax.sql.DataSource" username="sa"
+		password="sa" maxIdle="30" maxActive="100" maxWait="5000"
+		driverClassName="com.microsoft.jdbc.sqlserver.SQLServerDriver"
+		url="jdbc:microsoft:sqlserver://192.168.10.13:1433;DatabaseName=javaWeb;SelectMethod=cursor">
+	</Resource>
+</Context>
